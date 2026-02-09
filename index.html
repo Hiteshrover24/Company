@@ -3,160 +3,232 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Procentrilix | IT & Financial Services</title>
+    <title>Procentrilix | IT Accessibility & US Taxation Experts</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
 
     <nav class="navbar">
-        <div class="container nav-content">
-            <div class="logo">
-                <h2>Procentrilix<span class="dot">.</span></h2>
-            </div>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#careers">Careers</a></li>
-                <li><a href="#contact" class="btn-primary">Contact Us</a></li>
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                Procentrilix<span class="accent">.</span>
+            </a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+                <li class="nav-item"><a href="#careers" class="nav-link">Careers</a></li>
+                <li class="nav-item"><a href="#contact" class="btn-primary nav-btn">Contact Us</a></li>
             </ul>
-            <div class="menu-toggle">
-                <i class="fas fa-bars"></i>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
             </div>
         </div>
     </nav>
 
     <section id="home" class="hero">
+        <div class="hero-overlay"></div>
         <div class="container hero-content">
-            <div class="hero-text">
-                <h1>Precision in IT.<br>Excellence in Taxation.</h1>
-                <p>We deliver top-tier Document Accessibility, EPUB conversions, and expert US Taxation services for businesses worldwide.</p>
-                <div class="hero-buttons">
-                    <a href="#services" class="btn-primary">Our Services</a>
-                    <a href="#contact" class="btn-secondary">Get a Quote</a>
+            <div class="hero-text fade-in-up">
+                <span class="badge">Trusted B2B & B2C Partner</span>
+                <h1>Bridging Digital Accessibility <br>& <span class="text-gradient">Financial Precision</span></h1>
+                <p>We are a dual-expertise firm delivering WCAG-compliant document remediation and strategic US Taxation services. Precision in every pixel, accuracy in every number.</p>
+                <div class="btn-group">
+                    <a href="#services" class="btn-primary">Explore Services</a>
+                    <a href="#contact" class="btn-secondary">Request Consultation</a>
                 </div>
             </div>
-            <div class="hero-visual">
-                <div class="cube-container">
-                    <div class="floating-card card-1">
-                        <i class="fas fa-file-pdf"></i>
-                        <span>Accessibility</span>
+            <div class="hero-3d-visual fade-in-up delay-200">
+                <div class="card-stack">
+                    <div class="card-layer layer-1">
+                        <i class="fas fa-file-invoice-dollar"></i>
+                        <span>US Tax Planning</span>
                     </div>
-                    <div class="floating-card card-2">
-                        <i class="fas fa-chart-line"></i>
-                        <span>US Tax</span>
+                    <div class="card-layer layer-2">
+                        <i class="fas fa-universal-access"></i>
+                        <span>Section 508 Compliance</span>
                     </div>
-                    <div class="floating-card card-3">
-                        <i class="fas fa-book-open"></i>
-                        <span>EPUB</span>
+                    <div class="card-layer layer-3">
+                        <div class="stat">
+                            <strong>99.9%</strong>
+                            <span>Accuracy</span>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="about" class="section">
-        <div class="container">
-            <h2 class="section-title">Who We Are</h2>
-            <div class="about-grid">
-                <div class="about-card">
-                    <h3>Our Mission</h3>
-                    <p>To provide seamless, high-quality solutions for complex documentation and financial challenges. Whether it's making the web accessible or navigating US tax laws, Procentrilix is your central hub for reliability.</p>
+    <section id="about" class="section bg-light">
+        <div class="container split-layout">
+            <div class="split-image reveal">
+                <div class="image-placeholder-3d">
+                    <i class="fas fa-building"></i>
                 </div>
-                <div class="about-card">
-                    <h3>Why Choose Us</h3>
-                    <ul class="feature-list">
-                        <li><i class="fas fa-check-circle"></i> 24/7 Support</li>
-                        <li><i class="fas fa-check-circle"></i> 99% Accuracy Rate</li>
-                        <li><i class="fas fa-check-circle"></i> Dual-Domain Expertise</li>
+            </div>
+            <div class="split-text reveal">
+                <h4 class="sub-heading">WHO WE ARE</h4>
+                <h2 class="section-title">A Convergence of Tech & Finance</h2>
+                <p>Procentrilix was founded to solve two critical business challenges: the need for inclusive digital content and the complexity of US tax compliance.</p>
+                <p>We don't just "do" the work; we ensure compliance. Whether converting a textbook to an accessible EPUB or filing a complex tax return, our standard is perfection.</p>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <h3>B2B</h3>
+                        <p>Enterprise Solutions</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>B2C</h3>
+                        <p>Individual Focus</p>
+                    </div>
+                </div>
+                <a href="company_profile.pdf" class="btn-text" download>Download Company Profile <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="section">
+        <div class="container">
+            <div class="section-header center-text reveal">
+                <h4 class="sub-heading">OUR EXPERTISE</h4>
+                <h2 class="section-title">Two Divisions. One Standard.</h2>
+            </div>
+
+            <h3 class="division-title reveal">IT Services & Accessibility</h3>
+            <div class="services-grid">
+                <div class="service-card tilt-card reveal">
+                    <div class="icon-circle">
+                        <i class="fas fa-file-pdf"></i>
+                    </div>
+                    <h3>PDF & PPT Accessibility</h3>
+                    <p>Full compliance with WCAG 2.1, WCAG 2.2, and Section 508. We remediate complex documents to make them accessible for screen readers.</p>
+                </div>
+                <div class="service-card tilt-card reveal delay-100">
+                    <div class="icon-circle">
+                        <i class="fas fa-book-open"></i>
+                    </div>
+                    <h3>EPUB & CUP Conversions</h3>
+                    <p>Professional conversion services for publishers. We handle fixed-layout, reflowable EPUBs, and Cambridge University Press (CUP) standards.</p>
+                </div>
+                <div class="service-card tilt-card reveal delay-200">
+                    <div class="icon-circle">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>XML & Data Processing</h3>
+                    <p>Structured data services ensuring your digital archives are clean, organized, and future-proof.</p>
+                </div>
+            </div>
+
+            <h3 class="division-title reveal" style="margin-top: 60px;">Non-IT / Financial Services</h3>
+            <div class="services-grid single-focus">
+                <div class="service-card tilt-card highlight reveal">
+                    <div class="card-badge">Featured</div>
+                    <div class="icon-circle">
+                        <i class="fas fa-landmark"></i>
+                    </div>
+                    <h3>US Taxation</h3>
+                    <p>Comprehensive tax solutions for individuals and businesses.</p>
+                    <ul class="service-list">
+                        <li><i class="fas fa-check"></i> Federal & State Filing</li>
+                        <li><i class="fas fa-check"></i> Tax Planning & Strategy</li>
+                        <li><i class="fas fa-check"></i> IRS Representation</li>
+                        <li><i class="fas fa-check"></i> Expat Tax Services</li>
                     </ul>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="services" class="section bg-dark">
-        <div class="container">
-            <h2 class="section-title text-light">Our Expertise</h2>
-            
-            <h3 class="subsection-title">IT Services</h3>
-            <div class="services-grid">
-                <div class="service-card 3d-effect">
-                    <div class="icon-box"><i class="fas fa-universal-access"></i></div>
-                    <h4>PDF & PPT Accessibility</h4>
-                    <p>Ensuring your documents are compliant with WCAG 2.1 and Section 508 standards. We make content accessible for everyone.</p>
+    <section id="careers" class="section bg-dark">
+        <div class="container center-text reveal">
+            <h2 class="section-title text-light">Join Procentrilix</h2>
+            <p class="section-desc text-light-mute">We are expanding our teams in Hyderabad. If you have an eye for detail or a mind for numbers, we want you.</p>
+            <div class="job-cards">
+                <div class="job-card">
+                    <h4>Accessibility Tester</h4>
+                    <span>IT Division</span>
                 </div>
-                <div class="service-card 3d-effect">
-                    <div class="icon-box"><i class="fas fa-book"></i></div>
-                    <h4>EPUB Conversions</h4>
-                    <p>High-fidelity CUP EPUB and standard eBook conversions perfect for publishers and educational institutions.</p>
+                <div class="job-card">
+                    <h4>Tax Associate</h4>
+                    <span>Finance Division</span>
                 </div>
             </div>
-
-            <h3 class="subsection-title" style="margin-top: 50px;">Non-IT Services</h3>
-            <div class="services-grid">
-                <div class="service-card 3d-effect highlight-card">
-                    <div class="icon-box"><i class="fas fa-file-invoice-dollar"></i></div>
-                    <h4>US Taxation</h4>
-                    <p>Comprehensive tax preparation and planning services for individuals and businesses operating within the US tax system.</p>
-                </div>
-            </div>
+            <a href="mailto:info@procentrilix.com?subject=Job Application" class="btn-primary">Apply via Email</a>
         </div>
     </section>
 
-    <section id="careers" class="section">
+    <section id="contact" class="section">
         <div class="container">
-            <h2 class="section-title">Join the Team</h2>
-            <p class="section-subtitle">We are always looking for talent in accessibility testing and tax analysis.</p>
-            <div class="career-cta">
-                <p>Send your resume to our HR team.</p>
-                <a href="mailto:info@procentrilix.com" class="btn-primary">Apply Now</a>
-            </div>
-        </div>
-    </section>
-
-    <section id="contact" class="section bg-dark">
-        <div class="container">
-            <h2 class="section-title text-light">Contact Us</h2>
-            <div class="contact-wrapper">
+            <div class="contact-box reveal">
                 <div class="contact-info">
-                    <div class="info-item">
-                        <i class="fas fa-envelope"></i>
-                        <p>info@procentrilix.com</p>
+                    <h3>Get in Touch</h3>
+                    <p>Ready to start a project? Contact us for a quote or consultation.</p>
+                    <div class="info-row">
+                        <div class="icon"><i class="fas fa-phone-alt"></i></div>
+                        <div>
+                            <span>Call Us</span>
+                            <p>+91 7993521407</p>
+                        </div>
                     </div>
-                    <div class="info-item">
-                        <i class="fas fa-phone"></i>
-                        <p>+91 7993521407</p>
+                    <div class="info-row">
+                        <div class="icon"><i class="fas fa-envelope"></i></div>
+                        <div>
+                            <span>Email Us</span>
+                            <p>info@procentrilix.com</p>
+                        </div>
                     </div>
-                    <div class="info-item">
-                        <i class="fas fa-globe"></i>
-                        <p>www.procentrilix.com</p>
+                    <div class="info-row">
+                        <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div>
+                            <span>Location</span>
+                            <p>Hyderabad, India</p>
+                        </div>
                     </div>
                 </div>
-                <form class="contact-form 3d-effect">
-                    <input type="text" placeholder="Your Name" required>
-                    <input type="email" placeholder="Your Email" required>
-                    <select>
-                        <option>Service Interested In</option>
-                        <option>PDF/PPT Accessibility</option>
-                        <option>EPUB Conversion</option>
-                        <option>US Taxation</option>
-                        <option>Other</option>
-                    </select>
-                    <textarea placeholder="Message" rows="5"></textarea>
-                    <button type="submit" class="btn-primary">Send Message</button>
-                </form>
+                <div class="contact-form-wrapper">
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label>Name</label>
+                            <input type="text" placeholder="John Doe" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Email</label>
+                            <input type="email" placeholder="john@company.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Service Needed</label>
+                            <select>
+                                <option>US Taxation</option>
+                                <option>PDF/PPT Accessibility</option>
+                                <option>EPUB Conversion</option>
+                                <option>Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Message</label>
+                            <textarea rows="4" placeholder="How can we help you?"></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary full-width">Send Message</button>
+                    </form>
+                </div>
             </div>
         </div>
     </section>
 
     <footer>
-        <div class="container">
+        <div class="container footer-content">
             <p>&copy; 2026 Procentrilix. All Rights Reserved.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
         </div>
     </footer>
 
     <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"></script>
 </body>
 </html>
